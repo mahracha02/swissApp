@@ -44,7 +44,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <AuthProvider>
-        <Router>
+        <Router basename='swissApp'>
           <div className="App">
             <Routes>
               {/* Public Routes */}
